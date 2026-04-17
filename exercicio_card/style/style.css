@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{  
+    background: #6152c7;
+    background: linear-gradient(90deg, rgba(97, 82, 199, 1) 0%, rgba(39, 39, 168, 1) 48%, rgba(0, 0, 0, undefined) 0%);
+    height: 100vh; /*deixa com o tamanho certo da tela*/ 
+    display: flex; /* centralizar*/
+    justify-content: center; /*centralizar */
+    align-items: center; /*centralizar */
+    font-family: 'Segoe UI';
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    max-width: 400px ;  /*tamanho maximo do fundo branco*/
+    padding: 40px 40px;
+}
+header{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.perfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #667eea;
+    border-radius: 50%;
+    width:120px;
+    height:120px;
+
+}
